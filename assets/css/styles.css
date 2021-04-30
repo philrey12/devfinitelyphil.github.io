@@ -1,7 +1,7 @@
-/* ####### Fonts ####### */
+/* #######[ FONTS ]####### */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-/* ####### Variables ####### */
+/* #######[ VARIABLES ]####### */
 :root {
     --header-height: 3rem;
     --nav-width: 324px;
@@ -50,7 +50,7 @@
     }
 }
 
-/* ####### Base ####### */
+/* #######[ BASE ]####### */
 *, ::before, ::after {
     box-sizing: border-box;
 }
@@ -94,7 +94,7 @@ img {
     display: block;
 }
 
-/* ####### Classes ####### */
+/* #######[ CLASSES ]####### */
 .section {
     padding: 4rem 0 2rem;
 }
@@ -115,7 +115,7 @@ img {
     margin-bottom: .24rem;
 }
 
-/* ####### Layout ####### */
+/* #######[ LAYOUT ]####### */
 .bd-grid {
     max-width: 1024px;
     display: grid;
@@ -136,7 +136,7 @@ img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
 
-/* ####### Nav ####### */
+/* #######[ NAV ]####### */
 .nav {
     height: var(--header-height);
     display: flex;
@@ -188,17 +188,17 @@ img {
     cursor: pointer;
 }
 
-/* ####### Show Hidden Menu ####### */
+/* #######[ SHOW HIDDEN MENU ]####### */
 .show {
     left: 0;
 }
 
-/* ####### Active Menu ####### */
+/* #######[ ACTIVE MENU ]####### */
 .active {
     color: var(--text-color);
 }
 
-/* ####### Home ####### */
+/* #######[ HOME ]####### */
 .home_container {
     height: calc(100vh - var(--header-height));
     align-items: center;
@@ -262,7 +262,7 @@ img {
     width: 100%;
 }
 
-/* ####### Buttons ####### */
+/* #######[ BUTTONS ]####### */
 .button {
     display: inline-block;
     background-color: var(--first-color);
@@ -286,7 +286,7 @@ img {
     color: var(--first-color-lighten);
 }
 
-/* ####### About ####### */
+/* #######[ ABOUT ]####### */
 .about_container {
     row-gap: 2rem;
 }
@@ -337,7 +337,8 @@ img {
     font-size: var(--small-font-size);
 }
 
-/* ####### Skills ####### */
+
+/* #######[ SKILLS ]####### */
 .skills_container {
     row-gap: 2rem;
 }
@@ -393,4 +394,60 @@ img {
 
 .skills_python {
     width: 40%;
+}
+
+/* #######[ EDUCATION ]####### */
+.education_container {
+    row-gap: 2rem;
+}
+
+.education_content {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+}
+
+.education_year, .education_degree {
+    font-size: var(--h3-font-size);
+    margin-bottom: .25rem;
+}
+
+.education_university, .instructor {
+    display: block;
+    font-size: var(--small-font-size);
+}
+
+.education_year, .education_university {
+    text-align: right;
+}
+
+.education_time {
+    padding: 0 1rem;
+    justify-content: center;
+}
+
+.education_rounder {
+    position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+}
+
+.education_rounder::before {
+    content: '';
+    position: absolute;
+    transform: translate(-4px, -4px);
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--first-color);
+    border-radius: 50%;
+}
+
+.education_line {
+    display: block;
+    height: 90%;
+    width: 2px;
+    background-color: var(--first-color);
+    transform: translate(5px, 4px);
 }
