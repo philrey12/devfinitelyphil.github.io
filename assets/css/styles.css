@@ -1,7 +1,7 @@
-/* FONTS */
+/* ####### Fonts ####### */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-/* VARIABLES */
+/* ####### Variables ####### */
 :root {
     --header-height: 3rem;
     --nav-width: 324px;
@@ -50,7 +50,7 @@
     }
 }
 
-/* BASE */
+/* ####### Base ####### */
 *, ::before, ::after {
     box-sizing: border-box;
 }
@@ -94,7 +94,7 @@ img {
     display: block;
 }
 
-/* CLASSES */
+/* ####### Classes ####### */
 .section {
     padding: 4rem 0 2rem;
 }
@@ -115,7 +115,7 @@ img {
     margin-bottom: .24rem;
 }
 
-/* LAYOUT */
+/* ####### Layout ####### */
 .bd-grid {
     max-width: 1024px;
     display: grid;
@@ -136,7 +136,7 @@ img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
 
-/* NAV */
+/* ####### Nav ####### */
 .nav {
     height: var(--header-height);
     display: flex;
@@ -188,17 +188,17 @@ img {
     cursor: pointer;
 }
 
-/* SHOW HIDDEN MENU */
+/* ####### Show Hidden Menu ####### */
 .show {
     left: 0;
 }
 
-/* ACTIVE MENU */
+/* ####### Active Menu ####### */
 .active {
     color: var(--text-color);
 }
 
-/* HOME */
+/* ####### Home ####### */
 .home_container {
     height: calc(100vh - var(--header-height));
     align-items: center;
@@ -262,7 +262,7 @@ img {
     width: 100%;
 }
 
-/* BUTTONS */
+/* ####### Buttons ####### */
 .button {
     display: inline-block;
     background-color: var(--first-color);
@@ -286,7 +286,7 @@ img {
     color: var(--first-color-lighten);
 }
 
-/* ABOUT */
+/* ####### About ####### */
 .about_container {
     row-gap: 2rem;
 }
@@ -335,4 +335,62 @@ img {
 
 .about_information-subtitle-small {
     font-size: var(--small-font-size);
+}
+
+/* ####### Skills ####### */
+.skills_container {
+    row-gap: 2rem;
+}
+
+.skills_subtitle {
+    font-size: var(--h3-font-size);
+    color: var(--first-color-dark);
+    margin-bottom: var(--mb-2);
+}
+
+.skills_data {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 var(--mb-2);
+    margin-bottom: var(--mb-4);
+}
+
+.skills_name {
+    text-transform: uppercase;
+}
+
+.skills_bar {
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: var(--first-color);
+}
+
+.skills_html {
+    width: 60%;
+}
+
+.skills_js {
+    width: 70%;
+}
+
+.skills_ts {
+    width: 40%;
+}
+
+.skills_angular {
+    width: 50%;
+}
+
+.skills_dotnet {
+    width: 70%;
+}
+
+.skills_node {
+    width: 50%;
+}
+
+.skills_python {
+    width: 40%;
 }
