@@ -16,18 +16,18 @@ closeMenu.addEventListener('click', () => {
 // REMOVE MENU
 const navLink = document.querySelectorAll('.nav_link');
 
-const linkAction = () => {
+function linkAction() {
     navMenu.classList.remove('show')
 };
 
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
 // SCROLL SECTIONS ACTIVE LINK
-const sections = document.querySelectorAll(section[id]);
+const sections = document.querySelectorAll('section[id]');
 
 window.addEventListener('scroll', scrollActive);
 
-const scrollActive = () => {
+function scrollActive() {
     const scrollY = window.pageYOffset;
 
     sections.forEach(current => {
