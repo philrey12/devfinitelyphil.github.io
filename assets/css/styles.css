@@ -581,7 +581,7 @@ img {
     cursor: pointer;
 }
 
-.contact_info {
+/* .contact_info {
     margin-bottom: var(--mb-3);
 }
 
@@ -594,5 +594,44 @@ img {
 .contact_text {
     display: block;
     padding-left: 1rem;
+} */
+
+/* #######[ FOOTER ]####### */
+.footer {
+    background-color: var(--first-color-darken);
+    color: var(--first-color-lighten);
+    text-align: center;
 }
 
+.footer_title {
+    font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-2);
+}
+
+.footer_description {
+    margin-bottom: var(--mb-2);
+}
+
+.footer_social {
+    margin-bottom: 3rem;
+}
+
+.footer_social-link {
+    display: inline-flex;
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    font-size: 1.1rem;
+    border-radius: 50%;
+    padding: .40rem;
+    margin: 0 var(--mb-1);
+    transition: .2s;
+}
+
+.footer_social-link:hover {
+    background-color: var(--first-color-lighten);
+    color: var(--first-color);
+}
+
+.footer_copyright {
+    font-size: var(--smaller-font-size);
+}
