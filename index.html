@@ -325,12 +325,14 @@
 
             <div class="contact_container bd-grid">
                 <form action="https://formsubmit.co/el/deturo" method="POST" class="contact_form">
+                    <input type="hidden" name="_subject" value="New submission from a client!">
+
                     <div class="contact_inputs">
                         <input type="text" name="name" placeholder="Name" class="contact_input" required>
                         <input type="email" name="email" placeholder="Email" class="contact_input" required>
                     </div>
 
-                    <input type="text" name="_subject" placeholder="Project" class="contact_input" required>
+                    <!-- <input type="text" name="_subject" placeholder="Project" class="contact_input" required> -->
 
                     <textarea name="message" id="" cols="0" rows="10" placeholder="Message" class="contact_input" required></textarea>
 
