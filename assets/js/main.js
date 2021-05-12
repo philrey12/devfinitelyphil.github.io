@@ -1,7 +1,8 @@
 // MENU
 const navMenu = document.getElementById('nav-menu'), 
     toggleMenu = document.getElementById('nav-toggle'), 
-    closeMenu = document.getElementById('nav-close');
+    closeMenu = document.getElementById('nav-close'), 
+    copyYear = document.querySelector('#copyright-year').innerText = new Date().getFullYear();
 
 // show
 toggleMenu.addEventListener('click', () => {
