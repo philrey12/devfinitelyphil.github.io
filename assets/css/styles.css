@@ -330,6 +330,12 @@ img {
     margin-bottom: var(--mb-4);
 }
 
+.about_description::first-letter {
+    text-transform: capitalize;
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-bold);
+}
+
 /* .about_img {
     width: 150px;
     border-radius: .5rem;
