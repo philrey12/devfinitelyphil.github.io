@@ -241,6 +241,13 @@ img {
     margin-bottom: var(--mb-4);
 }
 
+.separator {
+    font-size: 1.2rem;
+    color: var(--first-color);
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+
 .home_social {
     margin-bottom: 5rem;
 }
@@ -651,7 +658,7 @@ img {
     .footer_container {
         background-color: var(--first-color-darken);
         padding: 3rem 0;
-        /* border-radius: .5rem; */
+        border-radius: .5rem;
     }
 }
 
