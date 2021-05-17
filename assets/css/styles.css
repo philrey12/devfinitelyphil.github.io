@@ -319,6 +319,8 @@ img {
 
 /* #######[ ABOUT ]####### */
 .about_container {
+    height: 75vh;
+    padding: 0 2.5rem 0 2.5rem;
     row-gap: 2rem;
 }
 
