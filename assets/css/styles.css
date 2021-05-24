@@ -507,7 +507,7 @@ img {
         margin-right: auto;
     }
 
-    .works_container {
+    /* .works_container {
         grid-template-columns: repeat(3, 1fr);
-    }
+    } */
 }
