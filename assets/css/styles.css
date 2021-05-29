@@ -111,7 +111,7 @@ img {
     font-size: var(--normal-font-size);
     color: var(--first-color-darken);
     text-align: center;
-    font-weight: var(--font-bold);
+    font-weight: var(--font-semi-bold);
     margin-bottom: .24rem;
 }
 
@@ -222,6 +222,7 @@ img {
 .home_profession {
     font-size: var(--normal-font-size);
     color: var(--first-color-dark);
+    font-weight: var(--font-semi-bold);
     margin-bottom: var(--mb-4);
 }
 
