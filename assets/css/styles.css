@@ -294,7 +294,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgba(45,116,164, .7);
+    background: rgba(45,116,164, .8);
     border-radius: .5rem;
     transition: .2s;
 }
@@ -311,6 +311,12 @@ img {
 
 .works_title {
     font-size: var(--h2-font-size);
+    color: var(--first-color-lighten);
+}
+
+.works_description {
+    text-align: center;
+    font-size: var(--small-font-size);
     color: var(--first-color-lighten);
 }
 
