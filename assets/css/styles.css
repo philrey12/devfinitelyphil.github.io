@@ -337,6 +337,7 @@ img {
 
 .about_description {
     margin-bottom: var(--mb-4);
+    text-align: center;
 }
 
 .about_description::first-letter {
@@ -348,8 +349,9 @@ img {
 .about-subtitle {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
     margin-top: 16px;
+    font-weight: bold;
 }
 
 /* .about_img {
@@ -361,7 +363,7 @@ img {
 .tools {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
     margin-top: 16px;
     margin-bottom: 24px;
 }
@@ -369,7 +371,7 @@ img {
 .other-tools {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
     margin-top: 16px;
 }
 
@@ -504,7 +506,8 @@ img {
     .footer_container {
         background-color: var(--first-color-darken);
         padding: 3rem 0;
-        border-radius: .5rem;
+        margin-bottom: -2rem;
+        /* border-radius: .5rem; */
     }
 }
 
