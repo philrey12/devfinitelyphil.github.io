@@ -305,6 +305,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
     background: rgba(45,116,164, .8);
     border-radius: .5rem;
@@ -324,6 +325,8 @@ img {
 .works_title {
     font-size: var(--h2-font-size);
     color: var(--first-color-lighten);
+    line-height: 1.3;
+    margin-bottom: .5rem;
 }
 
 .works_description {
