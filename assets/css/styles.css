@@ -379,8 +379,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 16px;
-    margin-bottom: 24px;
+    margin: 16px 16px 24px 16px;
 }
 
 .other-tools {
