@@ -394,6 +394,11 @@ img {
     font-size: var(--normal-font-size);
 }
 
+.status-update {
+    margin-bottom: var(--mb-4);
+    text-align: center;
+}
+
 /* #######[ CONTACT ]####### */
 .contact_container {
     row-gap: 3rem;
