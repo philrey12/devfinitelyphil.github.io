@@ -164,7 +164,7 @@ img {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--first-color-lighten);
     cursor: pointer;
 }
@@ -191,8 +191,9 @@ img {
 
 .nav_toggle {
     color: var(--first-color-dark);
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     cursor: pointer;
+    padding-top: 5px;
 }
 
 /* #######[ SHOW HIDDEN MENU ]####### */
