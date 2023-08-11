@@ -380,6 +380,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     margin: 16px 16px 24px 16px;
 }
 
@@ -387,18 +388,19 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     margin-top: 16px;
 }
 
-.item-tool {
+/* .item-tool {
     margin: 6px 12px 6px 12px;
     font-size: var(--normal-font-size);
-}
+} */
 
-.status-update {
+/* .status-update {
     margin-bottom: var(--mb-4);
     text-align: center;
-}
+} */
 
 /* #######[ CONTACT ]####### */
 .contact_container {
