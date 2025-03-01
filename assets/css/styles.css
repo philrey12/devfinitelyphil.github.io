@@ -129,6 +129,14 @@ img {
     margin-right: var(--mb-2);
 }
 
+.center {
+    justify-content:space-between;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
 .l-header {
     width: 100%;
     position: fixed;
